@@ -28,8 +28,10 @@ padding: 20px;
 }
 
 #name {
-font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;   
+ font-family: Georgia, 'Times New Roman', Times, serif;   
  color: blue;
+ font-weight: 600;
+
   }
   
   @media (max-width: 768px) {
@@ -45,7 +47,7 @@ font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 
 #a-tag {
     text-decoration: none;
-    color: black;
+    color: blue;
     font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
     font-weight: 400;
   }
@@ -223,10 +225,48 @@ a {
   }
   
   #date {
-    margin-top: 5px;
-  }
-  
-  #masters {
+    margin-top: 10px;
+    font-weight: lighter;
+    font-size: 12px;
     display: flex;
-    gap: 25px;
+    flex-direction: column;
+    margin-right: 5px;
+    margin-top: 10px;
+    padding-right: 10px;
   }
+
+
+  #resume{
+    font-weight: 400;
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+  }
+
+  #h2-tag{
+    font-weight: 200;
+    padding-left: 50px;
+    padding-top: 10px;
+  }
+
+  #main-resume{
+    display: flex;
+  }
+
+  #masters{
+    margin-left: 420px;
+    display: flex;
+    margin-top: 10px;
+  }
+
+  #resume-para{
+    max-width: 250px;
+  }
+
+#details{
+  padding-left: 20px;
+}
+
+#phone{
+  margin-top: 10px;
+}
