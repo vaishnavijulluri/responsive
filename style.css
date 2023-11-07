@@ -261,7 +261,7 @@ a {
   }
 @media(max-width-728px){
   #h2-tag{
-    padding-left: 10px;
+    margin-left: 10px;
   }
 }
 
