@@ -271,7 +271,12 @@ a {
     margin-left: 420px;
     display: flex;
     margin-top: 10px;
-    padding-right: 200px;
+  }
+
+  @media(max-width:728px){
+    #masters{
+      padding-right: 100px;
+    }
   }
 
   #resume-para{
