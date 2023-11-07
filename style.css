@@ -215,6 +215,10 @@ a {
     align-items: center;
   }
   
+#main-resume{
+  display: flex;
+}
+
   #year {
     width: 100%;
     display: flex;
@@ -261,8 +265,7 @@ a {
   }
 @media(max-width-728px){
   #h2-tag{
-    margin-left: 10px;
-    padding-left: 0px;
+    padding-left: 10px;     
   }
 }
 
@@ -294,6 +297,9 @@ a {
 
 #details{
   padding-left: 20px;
+}
+#resume-heading{
+  font-size: medium;
 }
 
 #phone{
