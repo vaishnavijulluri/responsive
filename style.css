@@ -200,6 +200,13 @@ a {
     text-decoration: none;
   }
   
+@media(max-width:728px){
+  #education-main{
+    display: flex;
+    flex-direction: column;
+  }
+}
+
   #resume-title {
     font-family: "Noto Sans", sans-serif;
     font-size: 60px;
