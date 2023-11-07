@@ -263,6 +263,7 @@ a {
     margin-left: 420px;
     display: flex;
     margin-top: 10px;
+    max-width: 200px;
   }
 
   @media(max-width:728px){
