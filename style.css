@@ -259,7 +259,11 @@ a {
     padding-left: 50px;
     padding-top: 10px;
   }
-
+@media(max-width-728px){
+  #h2-tag{
+    padding-left: 10px;
+  }
+}
 
   #masters{
     margin-left: 420px;
