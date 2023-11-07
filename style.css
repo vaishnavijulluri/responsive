@@ -274,8 +274,8 @@ a {
   }
 
   @media(max-width:728px){
-    #masters{
-      padding-right: 1000px;
+    #main-resume{
+       flex-direction: column;
     }
   }
 
