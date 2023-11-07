@@ -269,6 +269,8 @@ a {
   @media(max-width:728px){
     #main-resume{
        flex-direction: column;
+       display: flex;
+       align-items: center;
     }
   }
 
