@@ -230,6 +230,8 @@ a {
 @media(max-width:728px){
   #year{
     flex-direction: column;
+    display: flex;
+    align-items: center;
   }
 }
 
@@ -265,6 +267,12 @@ a {
     margin-top: 10px;
     max-width: 200px;
   }
+
+@media(max-width:728px){
+  #masters{
+    margin-left: 10px;
+  }
+}
 
   @media(max-width:728px){
     #main-resume{
