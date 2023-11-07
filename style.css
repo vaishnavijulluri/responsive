@@ -274,9 +274,8 @@ a {
   }
 
   @media(max-width:728px){
-    #all-resume{
-      display: flex;
-      justify-content: left;
+    #main-resume{
+       flex-direction: column;
     }
   }
 
