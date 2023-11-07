@@ -265,7 +265,10 @@ a {
   }
 @media(max-width-728px){
   #h2-tag{
-    padding-left: 10px;     
+    padding-left: 10px; 
+    display: flex;
+    justify-content: left;
+    align-items: left;    
   }
 }
 
