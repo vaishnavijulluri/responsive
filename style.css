@@ -69,8 +69,8 @@ padding: 20px;
 
 @media (max-width: 768px) {
     #hero-img {
-      width: 100px;
-      height: 100px;
+      width: 150px;
+      height: 220px;
     }
   }
 
